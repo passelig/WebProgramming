@@ -7,7 +7,8 @@
 <br>
 
 ![API in Browser](images/APIInBrowser.png)
+<br>
 4. Open the html file in browser file:///C:/WebProgramming/ThermometerSvgFromRestAPI/ThermometerFromAPI.html . Itshould give something like:
 <br>
 
-![API in Browser](images/ThermometerInBrowser.png)
+![API in Browser](images/ThermometerInBrowser.png) 
