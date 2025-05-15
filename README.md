@@ -29,12 +29,12 @@ An HTML file: ThermometerFromAPI.html — this file fetches the temperature data
  - OneWire
  - DallasTemperature
 
-Install them via Library Manager in Arduino IDE (Tools > Manage Libraries).
+Install them via Library Manager in Arduino IDE (Tools > Manage Libraries).<br><br>
 3. Select ESP32 Dev Module in boards manager, and correct COM port
 4. Upload and test with serial monitor. Ensure correct COM port speed
-![API in Browser](images/serialMonitor.png)
+![API in Browser](images/serialMonitor.png)<br><br>
 5. Edit source so that only the temperature (no text) is written to serial monitor
-6. Test in Serial Plotter
+6. Test in Serial Plotter<br>
 ![API in Browser](images/serialPlotter.png)<br>
 7  Close Arduino IDE!
 8. Run API in PYthon: /ThermometerSvgFromRestAPI/serialToAPI.py. Requires:
