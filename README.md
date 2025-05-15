@@ -35,7 +35,7 @@ Install them via Library Manager in Arduino IDE (Tools > Manage Libraries).
 ![API in Browser](images/serialMonitor.png)
 5. Edit source so that only the temperature (no text) is written to serial monitor
 6. Test in Serial Plotter
-![API in Browser](images/serialPlotter.png)
+![API in Browser](images/serialPlotter.png)<br>
 7  Close Arduino IDE!
 8. Run API in PYthon: /ThermometerSvgFromRestAPI/serialToAPI.py. Requires:
 ```
@@ -43,7 +43,7 @@ pip install flask
 pip install flask-cors
 ```
 If all works perfect (which it usually doesn't) it should look like:
-![SpyderConsoleOutput.png](images/SpyderConsoleOutput.png)
+![SpyderConsoleOutput.png](images/SpyderConsoleOutput.png)<br>
 9. Open the API in browser http://localhost:8088/temperature/ . It should give something like:
 <br>
 
@@ -52,6 +52,6 @@ If all works perfect (which it usually doesn't) it should look like:
 10. Open the html file in browser file:///C:/WebProgramming/ThermometerSvgFromRestAPI/ThermometerFromAPI.html . Itshould give something like:
 <br>
 
-![API in Browser](images/ThermometerInBrowser.png) 
+![API in Browser](images/ThermometerInBrowser.png) <br>
 11. Debug the webpage with Console in "More tools -> Developer Tools" in chrome
 ![javascriptConsole.png](images/javascriptConsole.png) 
